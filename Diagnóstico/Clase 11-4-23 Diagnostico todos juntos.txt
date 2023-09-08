@@ -1,0 +1,12 @@
+Clase 11-4
+Seguimos con el Diagnóstico.
+- El proceso de negocio a quién benfeicia? Al Guía turístico. De qué manera? Atrayendo nuevos clientes.
+- Cuáles son los clientes? Turistas. Qué quieren? Adquiri un servicio que le resuelva todo, es decir, que te organicen el viaje completo.
+- Proceso:
+	*Comienzo: El guía desea registrar su actividad en nuestra plataforma.
+	*El guía solicita loguearse en la plataforma (puede llegar de diferentes formas), alli el sistema identifica al guía, comprueba si existe un guía afiliado a los datos ingresados.
+	Si no existe el usario guía, se procede a solicitar los datos personales del mismo, se comprueban que los datos sean razonables y si se aprueban o son correctos, se procede a registrar
+	el nuevo usuario guía en la plataforma, si no, se vuelven a pedir dichos datos con un mensaje de error hasta que, se cancele la operación o se ingresen datos correctos.
+	Si el usuario guía existe, se procede con solicitar un tipo de servicio que se valida si es uno que ya existe o no. Si no existe, se registra el nuevo tipo de servicio que con un tiempo
+	un equipo de personas decide si es coherente dicho pedido (Ej: que no se registre alquileres en la luna) y si se aprueba, se registra el nuevo servicio. si no se aprueba se da por terminado el proceso.
+	

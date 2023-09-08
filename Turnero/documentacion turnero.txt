@@ -1,0 +1,8 @@
+Requerimientos: 
+- Como paciente quiero poder sacar un turno de manera presencial, que nos deriva con una secretaria en un box específico.
+
+Escenario 1:
+- El usuario debera ingresar DNI por totem.
+- Usuario saca un lugar en la fila para ser atendido por una secretaria
+- Se necesita guardar una nueva instancia en Fila con la fecha, hora de la operacion y se genera un codigo(a definir) que debe ser mostrado por pantalla para que el paciente sea atendido.
+- La secretaria llamar al siguiente paciente, una vez que solicita su precencia se debera mostrar por pantalla el codigo, dni del paciente y numero de box del atencion para que el paciente se acerque al box correspondiente. 
